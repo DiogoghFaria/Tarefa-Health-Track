@@ -1,0 +1,45 @@
+head
+{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    display: flex; 
+}
+
+
+#voltar{
+    position: relative;
+    height: 40px;
+    width: 50px;
+    margin-right:20px;
+    margin-top: 25px;
+    cursor: pointer;
+    color: grey;
+}
+
+#logo{ 
+  padding:0 30%;  
+  position: absolute;
+  margin-left: 9vw;
+  top: 0;
+  width: 100%;
+}
+
+footer{
+background-color: black;
+color: #fff;
+margin: auto;
+height: 50px;
+font-size: x-large;
+width: 100%;
+bottom: 0;
+position: fixed;
+text-align: center;
+cursor: pointer;
+}
+
+.prev,.next,.days{
+cursor: pointer;
+}
+

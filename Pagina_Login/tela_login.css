@@ -1,0 +1,118 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    border: none;
+
+}
+body{
+    background-image: url(./fotos/pexels-lukas-349610.jpg) ;
+    background-size: cover;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+
+a,label{
+    font-size: .8rem;
+}
+
+a :hover{
+color: aqua;
+}
+
+#login_container{
+    background-color: white;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top: 5vh;
+    border-radius: 10px;
+    text-align: center;
+   
+}
+
+form{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+label, input {
+    display:block;
+    width: 100%;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+}
+
+input{
+    border-bottom: 2px solid black;
+    padding: 10px ;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+input:focus{
+    border-bottom: 2px solid gray ;
+}
+
+#forgot-pass{
+    text-align: center;
+    display: block;
+}
+
+input[type="submit"]{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    color:rgb(255, 255, 255);
+    background-color: rgb(26, 204, 41);
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color:rgb(25, 187, 25) ;
+    transition: 0.2s
+}
+
+#social_container, #social_container p{
+    margin-bottom: 20px;
+}
+
+#social_container i{
+    height: 40px;
+    width: 40px;
+    border-radius:50% ;
+    line-height:40px ;
+    color: white ;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#facebook{
+    height: 40px;
+    width: 40px;
+    margin-right:20px;
+    cursor: pointer;
+}
+
+#google{
+    height: 40px;
+    width: 40px;
+    margin-left:20px ;
+    cursor: pointer;
+}
+
+
+#register_container p{
+    margin-bottom: 10px;
+}
